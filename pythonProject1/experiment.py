@@ -1,11 +1,9 @@
 import json
 from typing import List, Dict, Any
-import RewardAndPunishmentSystem
+import reward_and_punishment_system
 import trial
 import level
 import data_analysis
-
-
 
 class Experiment:
     def __init__(self, mice: List[Mouse], levels: Dict[int, Level]):
